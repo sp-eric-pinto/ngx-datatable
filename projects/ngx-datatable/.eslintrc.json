@@ -1,6 +1,7 @@
 {
   "extends": "../../.eslintrc.js",
-  "ignorePatterns": [],
+  "ignorePatterns": [
+  ],
   "overrides": [
     {
       "files": [

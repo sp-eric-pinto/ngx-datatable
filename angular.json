@@ -74,18 +74,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "buildTarget": "ngx-datatable:build"
+            "browserTarget": "ngx-datatable:build"
           },
           "configurations": {
             "production": {
-              "buildTarget": "ngx-datatable:build:production"
+              "browserTarget": "ngx-datatable:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ngx-datatable:build"
+            "browserTarget": "ngx-datatable:build"
           }
         },
         "test": {
