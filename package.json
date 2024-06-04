@@ -1,0 +1,52 @@
+{
+  "name": "@siemens/ngx-datatable",
+  "version": "22.2.2",
+  "description": "ngx-datatable is an Angular table grid component for presenting large and complex data.",
+  "peerDependencies": {
+    "@angular/common": ">=15.2.9",
+    "@angular/core": ">=15.2.9",
+    "@angular/platform-browser": ">=15.2.9",
+    "rxjs": "^6.6.3 || ^7.4.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siemens/ngx-datatable.git"
+  },
+  "keywords": [
+    "angularjs",
+    "angular",
+    "javascript",
+    "datatable",
+    "grid",
+    "table"
+  ],
+  "author": "Siemens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siemens/ngx-datatable/issues"
+  },
+  "homepage": "https://github.com/siemens/ngx-datatable#readme",
+  "module": "fesm2015/siemens-ngx-datatable.mjs",
+  "es2020": "fesm2020/siemens-ngx-datatable.mjs",
+  "esm2020": "esm2020/siemens-ngx-datatable.mjs",
+  "fesm2020": "fesm2020/siemens-ngx-datatable.mjs",
+  "fesm2015": "fesm2015/siemens-ngx-datatable.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/siemens-ngx-datatable.mjs",
+      "es2020": "./fesm2020/siemens-ngx-datatable.mjs",
+      "es2015": "./fesm2015/siemens-ngx-datatable.mjs",
+      "node": "./fesm2015/siemens-ngx-datatable.mjs",
+      "default": "./fesm2020/siemens-ngx-datatable.mjs"
+    }
+  },
+  "sideEffects": false
+}
